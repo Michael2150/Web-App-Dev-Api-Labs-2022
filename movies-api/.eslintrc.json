@@ -15,7 +15,8 @@
     },
     "plugins": [
         "node",
-        "react"
+        "react",
+        "express"
     ],
     "rules": {
         "semi": 1,
