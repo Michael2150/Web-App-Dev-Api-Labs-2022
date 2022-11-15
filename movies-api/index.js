@@ -5,9 +5,9 @@ import moviesRouter from './api/movies';
 dotenv.config();
 
 const app = express();
-
 const port = process.env.PORT;
 
+app.use(express.json());
 app.use('/api/movies', moviesRouter);
 
 app.listen(port, () => {
