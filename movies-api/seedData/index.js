@@ -1,7 +1,7 @@
-import userModel from '../api/users/userModel';
-import genreModel from '../api/genres/genreModel';
 import users from './users';
 import genres from './genres';
+import userModel from '../api/users/userModel';
+import genreModel from '../api/genres/genreModel';
 import dotenv from 'dotenv';
 
 dotenv.config();
